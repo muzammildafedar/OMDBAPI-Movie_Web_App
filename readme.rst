@@ -22,7 +22,7 @@ Features of web app
 **************************
 Setup in xampp/lampp server
 **************************
-- Clone repo or download and extract the in the location of ```htdocs/```
+- Clone repo or download and extract the in the location of ``htdocs/``
 - Create database and import database.sql file in your local system database
 - Open '''application/config/database.php''' and setup databasename, password and username
 - Open '''application/config/config.php''' and setup your base_url for the web app
