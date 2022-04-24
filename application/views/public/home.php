@@ -187,7 +187,7 @@ if ($this
             }
             else
             { ?>
-              <a href="#!" class="btn btn-primary" data-mdb-toggle="modal"
+              <a href="#" class="btn btn-primary" data-mdb-toggle="modal"
               ><i class="fa fa-check" aria-hidden="true"> Saved</i></a>
 
             <?php
