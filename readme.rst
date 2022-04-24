@@ -11,7 +11,8 @@ The movies library web app developed using following the tech
 *******************
 Features of web app
 *******************
-- Account creation usin email address.
+- Account creation using
+ email address.
 - Login using pass and email address
 - Web app don't accept the duplicate email address.
 - Create playList and view playList
