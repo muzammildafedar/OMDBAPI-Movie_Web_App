@@ -2,7 +2,7 @@
 Movies library web app
 ###################
 
-The movies library web app developed using following the tech
+The movies library web app developed using following the tech.
 - Codeigniter 3 with php
 - JavaScript
 - MySql
@@ -11,8 +11,7 @@ The movies library web app developed using following the tech
 *******************
 Features of web app
 *******************
-- Account creation using
- email address.
+- Account creation using email address.
 - Login using pass and email address
 - Web app don't accept the duplicate email address.
 - Create playList and view playList
