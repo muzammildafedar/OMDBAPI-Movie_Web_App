@@ -177,13 +177,15 @@ if ($this
 
               <?php if (empty($checkIsEmpty))
             { ?>
-               <a href="#!" class="btn btn-primary" data-mdb-toggle="modal"
+              <?php if($this->session->userdata('auth')) { ?>
+               <a href="#" class="btn btn-primary" data-mdb-toggle="modal"
                data-mdb-target="#exampleModal2"
                onclick="setValue('<?php echo $data->imdbID; ?>');"
                data-mdb-whatever="@getbootstrap"
                ><i class="fas fa-plus"  > Save</i></a>
 
              <?php
+           }
             }
             else
             { ?>
@@ -332,6 +334,8 @@ else
 
                 <?php if (empty($checkIsEmpty))
                     { ?>
+                                    <?php if($this->session->userdata('auth')) { ?>
+
                  <a href="#!" class="btn btn-primary" data-mdb-toggle="modal"
                  data-mdb-target="#exampleModal2"
                  onclick="setValue('<?php echo $insideValues->imdbID; ?>');"
@@ -339,6 +343,7 @@ else
                  ><i class="fas fa-plus"  > Save</i></a>
 
                <?php
+             }
                     }
                     else
                     { ?>

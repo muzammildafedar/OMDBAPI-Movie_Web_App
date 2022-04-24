@@ -95,8 +95,8 @@
 
             <!-- Avatar -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="<?php echo base_url()?>logout"
-              id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              <a  href="<?php echo base_url()?>logout"
+              >
               <?php $get = $this->db->get_where('user', array('email' => $this->session->userdata('auth')))->row();
               echo $get->name; ?> (Logout)
               
