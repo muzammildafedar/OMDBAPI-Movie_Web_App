@@ -11,12 +11,12 @@ Markup :  #### API: omdbapi ####
 *******************
 Features of web app
 *******************
-- [ ] Account creation usin email address.
-- [ ] Login using pass and email address
-- [ ] Web app don't accept the duplicate email address.
-- [ ] Create playList and view playList
-- [ ] Save movies in particulare playList
-- [ ] Search movies by ttile name
+- Account creation usin email address.
+- Login using pass and email address
+- Web app don't accept the duplicate email address.
+- Create playList and view playList
+- Save movies in particulare playList
+- Search movies by ttile name
     Note: The omdbapi only accept minimum 4 letter of title name 
 
 **************************
