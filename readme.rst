@@ -31,7 +31,7 @@ Setup in xampp/lampp server
 **************************
 Files intro
 **************************
-- ``[main_dir]/application/controllers/User.php `` This is main controller of the app.
+- ``[main_dir]/application/controllers/User.php`` This is main controller of the app.
 - The omdbapi functionalities included inside the api model ``[main_dir]/application/models/MoviesApi.php``
 - You can find auth functionalities inside the auth model ``[main_dir]/application/models/Auth.php``
 - The basic functionalities of app included inside the basic model ``[main_dir]/application/models/Basic.php`` 
