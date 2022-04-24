@@ -15,7 +15,7 @@ Features of web app
 - Login using pass and email address
 - Web app don't accept the duplicate email address.
 - Create playList and view playList
-- Save movies in particulare playList
+- Save movies in particular playList
 - Search movies by ttile name
     Note: The omdbapi only accept minimum 4 letter of title name 
 
